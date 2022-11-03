@@ -1,0 +1,108 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#home {
+    background-image: url(/assets/boreal-bonfire.gif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 160px 5% 105px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .nav-link {
+    height: 32px;
+    width: 32px;
+} */
+
+ul li i{
+    color: black;
+}
+
+
+.logo {
+    color: black;
+    font-size: 30px;
+    font-weight: 2000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+a.navbar-brand.logo.text-center {
+    font-weight: bolder;
+    margin-right: 87px;
+    font-size: 30px;
+}
+
+.flex.height-fix {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position:absolute;
+    top: 535px;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-shadow: 2px 2px #000000;
+    margin: auto;
+    padding:30px 30px;
+  }
+
+  /* .text{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 180px;
+  } */
+
+  .button {
+    display: inline-block;
+    transition: all 0.5s;
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    border-radius: 6px;
+    padding: 10px 24px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.button:hover {
+    background-color: black;
+    color: black;
+}
+
+progress {
+    margin-top: 100px;
+    margin-left: -50px;
+    transform: rotate(-90deg);
+}
+
+/* #contact {
+    background-color: #000000;
+} */
