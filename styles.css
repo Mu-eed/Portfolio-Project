@@ -30,9 +30,9 @@
     width: 32px;
 } */
 
-ul li i{
+ i{ 
     color: black;
-}
+} 
 
 
 .logo {
@@ -62,7 +62,8 @@ a.navbar-brand.logo.text-center {
 }
 
 .content {
-    position:absolute;
+    display: flex;
+    justify-content: center;
     top: 535px;
     bottom: 0;
     /* background: rgba(0, 0, 0, 0.5); */
